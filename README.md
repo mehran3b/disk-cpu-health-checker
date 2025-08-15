@@ -1,21 +1,21 @@
-# 🛠️ Disk and CPU Health Checker
+# Disk and CPU Health Checker
 
 A simple and flexible Python script to monitor disk space, memory usage, and CPU load on Linux systems. Built as part of the OPS445 course at Seneca Polytechnic.
 
-## 🎯 Project Goal
+## Project Goal
 
 To automate system health checks using built-in Linux commands and Python, allowing CLI-based reporting of disk, CPU, and memory stats with argparse-driven flexibility.
 
-## 🚀 Features
+## Features
 
-- 📂 Disk usage monitoring (`df`)
-- 🧠 Memory usage summary (`free`)
-- 🔁 CPU load check (`uptime`)
-- 🎛️ CLI flags (`--disk`, `--cpu`, `--mem`, `--all`)
-- 🔒 Input validation and error handling
-- 🧩 Modular design (reusable functions)
+-  Disk usage monitoring (`df`)
+-  Memory usage summary (`free`)
+-  CPU load check (`uptime`)
+-  CLI flags (`--disk`, `--cpu`, `--mem`, `--all`)
+-  Input validation and error handling
+-  Modular design (reusable functions)
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Tool           | Purpose                      |
 |----------------|------------------------------|
@@ -25,7 +25,7 @@ To automate system health checks using built-in Linux commands and Python, allow
 | Bash Terminal  | System commands              |
 | Argparse       | CLI argument parsing         |
 
-## 📦 Usage
+## Usage
 
 ```bash
 python3 healthcheck.py --disk     # Check disk usage
